@@ -1,0 +1,291 @@
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: #131313;
+    padding: 1rem 8rem;
+}
+
+body > header > nav > .navbar-brand {
+    font-size: 1.4rem;
+    font-family: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+    color: #fff;
+    font-size: 1.1rem;
+    padding:0 0.8rem;
+
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover
+{
+    color: #00Bf85;
+
+}
+
+#navbarSupportedContent > button {
+    background: #00Bf85;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+#navbarSupportedContent > button:hover {
+    color: #fff!important;
+}
+
+.mid {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.mid video {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.hero {
+    position: absolute;
+    color: #fff;
+    margin-left: 10%;
+    
+}
+
+.mid .hero p {
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1rem;
+
+}
+
+.mid .hero a {
+    background: #00Bf85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+.mid .hero a:hover {
+    background: #fff;
+}
+
+/* about section  */
+
+
+
+.about {
+    background: #000;
+
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+
+
+}
+
+.about .text h6 {
+    color:#00BF7F;
+    font-weight: 800;
+    font-size:1rem;
+    letter-spacing:2px ;
+
+}
+
+.about .text h2 {
+    color:#F7F5F4;
+    font-weight: 700;
+    font-size:2.7rem;
+}
+
+.about .text p {
+    color:#F7F5F4;
+    font-weight: 400;
+    font-size:1.1rem;
+    letter-spacing:0.5px ;
+
+}
+
+.about .text a {
+    background: #00Bf85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+
+}
+
+
+/* about section start  */
+
+.sign {
+    background: #fff;
+
+}
+
+.sign .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+
+
+}
+
+.sign .text h6 {
+    color:#00BF7F;
+    font-weight: 800;
+    font-size:1rem;
+    letter-spacing:2px ;
+
+}
+
+.sign .text h2 {
+    color:#111;
+    font-weight: 700;
+    font-size:2.7rem;
+}
+
+.sign .text p {
+    color:#111;
+    font-weight: 400;
+    font-size:1.1rem;
+    letter-spacing:0.5px ;
+
+}
+
+.sign .text a {
+    background: #111;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/* discover section start 
+ */
+
+ 
+
+
+.discover .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+
+
+}
+
+.discover .text h6 {
+    color:#00BF7F;
+    font-weight: 800;
+    font-size:1rem;
+    letter-spacing:2px ;
+
+}
+
+.discover .text h2 {
+    color:#111;
+    font-weight: 700;
+    font-size:2.7rem;
+}
+
+.discover .text p {
+    
+    font-weight: 400;
+    font-size:1.1rem;
+    letter-spacing:0.5px ;
+
+}
+
+.discover .text a {
+    background: #111;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+/* services start  */
+
+.services {
+    background: #000;
+}
+
+.services .one {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+}
+
+
+body > footer {
+    background: #111!important;
+}
+
+/* media query  */
+
+@media screen and (max-width:988px) {
+    .navbar {
+        padding: 1rem 4rem;
+    }
+
+    #navbarSupportedContent > ul {
+        padding: 0.8rem 0rem;
+    }
+
+
+    .mid .hero h2 {
+        font-size: 2.5rem;
+       
+    }
+    
+    .mid .hero p {
+       font-size: 1rem;
+    
+    }
+    .mid .hero a {
+        font-size: 0.9rem;
+    }
+    
+}
